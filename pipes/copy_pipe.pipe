@@ -2,4 +2,6 @@ NODE copy_pipe_node
 SQL >
     SELECT * FROM demo_analytics_events_1872
 
-
+TYPE COPY
+TARGET_DATASOURCE copy_analytics
+COPY_SCHEDULE * * * * *
