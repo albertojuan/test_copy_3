@@ -4,4 +4,4 @@ SQL >
 
 TYPE COPY
 TARGET_DATASOURCE copy_analytics
-COPY_SCHEDULE 12 * * * *
+COPY_SCHEDULE 10 * * * *
